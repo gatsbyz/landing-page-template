@@ -18,7 +18,16 @@ h4,
 h5,
 h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 100;
+}
+
+h4 {
+    font-style: italic;
+}
+
+div.intro-message {
+
+    color: #FFFFFF;
 }
 
 .topnav {
@@ -39,6 +48,7 @@ h6 {
     background: url(../img/gasky-background.png) no-repeat center center;
     background-size: cover;
     height: 100%;
+    width: 100%
 }
 .intro-header > .container {
     width: 350px;
@@ -46,9 +56,14 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 00%;
+    padding-top: 15%;
     padding-bottom: 40%;
-    right: 0;
+    //right: 0;
+}
+
+.navbar {
+    padding-right:10px;
+    padding-top:    10px;
 }
 
 .intro-message > h1 {
@@ -108,10 +123,17 @@ h6 {
     padding: 50px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
+    background-color: #000000
+}
+
+.white-font {
+    color: #f8f8f8;;
 }
 
 .section-heading {
     margin-bottom: 30px;
+    text-align: center
+
 }
 
 .section-heading-spacer {
@@ -177,10 +199,85 @@ p.copyright {
 }
 
 .header1 {
-    color: #00FFFF;
+    color: #2eccfd;
+}
+
+.header1 h2 {
+    font-size: 50
 }
 
 .container {
     padding-right: 0;
     margin-right: 0;
+
+}
+
+
+.download {
+    border-radius: 4px;
+    border: 1px solid #777;
+    padding: 5px;
+
+}
+
+.download2 {
+    border-radius: 4px;
+    border: 1px solid #2eccfd;
+    padding: 5px;
+    color:  #2eccfd;
+
+}
+
+.download3 {
+    border-radius: 4px;
+    border: 1px solid #2eccfd;
+    padding: 10px 20px 20px 20px;
+    color:  #2eccfd;
+
+}
+
+.nobound {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #f8f8f8;
+}
+
+.notifyme {
+    position: absolute;
+    right: 60px;
+    bottom: 5px;
+     font-style: normal;
+}
+
+.dontpad {
+    padding-top : 0px;
+    padding-bottom : 0px;
+}
+
+li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.logo {
+    height:
+}
+
+
+.img-center {
+	margin: 0 auto;
+}
+
+.how-img {
+background-color: #000000;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.paddings {
+    padding-right:40px;
+    padding-left:5px;
+
 }
